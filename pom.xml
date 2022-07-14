@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.6.7</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>com.abtnetwork</groupId>
+    <artifactId>license</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>license</name>
+
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.9.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.8.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>topology</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.2.2</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/WekaExcel -->
+        <dependency>
+            <groupId>nz.ac.waikato.cms.weka</groupId>
+            <artifactId>WekaExcel</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+
+
+        <!--abt-->
+        <!--<dependency>-->
+            <!--<groupId>com.network</groupId>-->
+            <!--<artifactId>sso</artifactId>-->
+            <!--<version>1.0</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>webui</artifactId>
+            <version>1.0</version>
+        </dependency>
+<!--        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>api</artifactId>
+            <version>1.0</version>
+        </dependency>-->
+<!--        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>combing</artifactId>
+            <version>1.0</version>
+        </dependency>-->
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>discover</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.network</groupId>-->
+            <!--<artifactId>disposal</artifactId>-->
+            <!--<version>1.0</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>layer</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>legal</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>monitor</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>patrol</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>web-siip</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>vmsdn</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.network</groupId>-->
+            <!--<artifactId>risk</artifactId>-->
+            <!--<version>1.0</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>push</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>policy</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>xxl-job-admin</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>xxl-job-executor</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-plugins-core-1.8.6-SNAPSHOT</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-push-common</artifactId>
+            <version>1.8.6-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-whale-common</artifactId>
+            <version>20210623</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-whale-plugin-unix-iptables</artifactId>
+            <version>20210623</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-discover-common</artifactId>
+            <version>1.8.6-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-discover-plugin-cisco</artifactId>
+            <version>1.8.6-SNAPSHOT</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-plugins-message</artifactId>
+            <version>1.8.6-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>common-io</artifactId>
+            <version>3.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>core</artifactId>
+            <version>3.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>whale</artifactId>
+            <version>1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>common-image</artifactId>
+            <version>3.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>common-lang</artifactId>
+            <version>3.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>spring-data-commons</artifactId>
+            <version>2.1.8.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-plugins-sso-client-1.8.6-SNAPSHOT</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-plugins-whale</artifactId>
+            <version>1.8.6-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-plugins-common</artifactId>
+            <version>1.8.6-SNAPSHOT</version>
+      </dependency>
+
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>spring-data-commons</artifactId>
+            <version>2.1.8.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>fastjson-1.2.76</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>log4j-api-2.11.2</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>log4j-over-slf4j-1.7.26</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>commons-lang3-3.11</artifactId>
+            <version>1.0</version>
+            <!--<scope>system</scope>-->
+            <!--<systemPath>${project.basedir}/src/main/resources/lib/sso.jar</systemPath>-->
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-plugins-log</artifactId>
+            <version>1.8.6-SNAPSHOT</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.quartz-scheduler/quartz -->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>2.3.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.jms</groupId>
+                <artifactId>javax.jms-api</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework/spring-jms -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+            <version>5.3.20</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jasypt/jasypt -->
+        <dependency>
+            <groupId>org.jasypt</groupId>
+            <artifactId>jasypt</artifactId>
+            <version>1.9.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/druid -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.10</version>
+        </dependency>
+
+
+
+
+
+        <dependency>
+            <groupId>org.springframework.security.oauth</groupId>
+            <artifactId>spring-security-oauth2</artifactId>
+            <!--请注意下 spring-authorization-oauth2 的版本 务必高于 2.3.2.RELEASE，这是官方的一个bug:
+            java.lang.NoSuchMethodError: org.springframework.data.redis.connection.RedisConnection.set([B[B)V
+            要求必须大于2.3.5 版本，官方解释：https://github.com/BUG9/spring-security/network/alert/pom.xml/org.springframework.security.oauth:spring-security-oauth2/open
+            -->
+            <version>2.3.5.RELEASE</version>
+        </dependency>
+
+        <!-- pagehelper :分页插件 -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>5.1.2</version>
+        </dependency>
+        <!-- pagehelper的依赖包:jsqlparser -->
+        <dependency>
+            <groupId>com.github.jsqlparser</groupId>
+            <artifactId>jsqlparser</artifactId>
+            <version>0.9.5</version>
+        </dependency>
+        <!--  Springboot的PageHelper的启动器 -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper-spring-boot-starter</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>2.0.1.Final.jar</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>4-4.1.jar</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>6.0.16.Final</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <skip>false</skip>
+                </configuration>
+            </plugin>
+
+
+        </plugins>
+    </build>
+
+</project>

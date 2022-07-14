@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.network:validation-api:2.0.1.Final.jar">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/network/validation-api/2.0.1.Final.jar/validation-api-2.0.1.Final.jar.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/network/validation-api/2.0.1.Final.jar/validation-api-2.0.1.Final.jar-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/network/validation-api/2.0.1.Final.jar/validation-api-2.0.1.Final.jar-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
