@@ -79,7 +79,10 @@ public class PolicyViewGen {
                             vo.setVendorId(node.getVendorId());
                             vo.setCreatedTime(DateUtil.dateToString(node.getCreatedTime(), "yyyy-MM-dd HH:mm:ss"));
                             vo.setVersion(node.getVersion());
+
                             String deviceUuid = node.getUuid();
+                            vo.setUuid(deviceUuid);
+                            vo.setModelNumber(node.getModelNumber());
                             DeviceRO deviceRO = PolicyViewGen.this.whaleDeviceObjectClient.getDeviceROByUuid(deviceUuid);
                             DeviceDataRO deviceObj = new DeviceDataRO();
                             if (deviceRO != null && deviceRO.getData() != null && deviceRO.getData().size() > 0) {

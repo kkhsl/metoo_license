@@ -23,6 +23,9 @@ public class PolicyViewVO implements Comparator<PolicyViewVO> {
     String vendorName;
     @ApiModelProperty("设备名称")
     String deviceName;
+    @ApiModelProperty("设备uuid")
+    private String uuid;
+    private String modelNumber;
     @ApiModelProperty("型号")
     private String version;
     @ApiModelProperty("采集时间")
@@ -119,6 +122,13 @@ public class PolicyViewVO implements Comparator<PolicyViewVO> {
     public PolicyViewVO() {
     }
 
+    public String getModelNumber(){
+        return this.modelNumber;
+    }
+
+    public String getUuid(){
+        return uuid;
+    }
     public Byte getState(){
         return this.state;
     }
@@ -126,6 +136,12 @@ public class PolicyViewVO implements Comparator<PolicyViewVO> {
         return this.typeCode;
     }
 
+    public void setUuid(String uuid){
+        this.uuid = uuid;
+    }
+    public void setModelNumber(String modelNumber){
+        this.modelNumber = modelNumber;
+    }
     public String getType() {
         return this.type;
     }

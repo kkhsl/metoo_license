@@ -75,11 +75,11 @@
 
 
         <!--abt-->
-        <!--<dependency>-->
-            <!--<groupId>com.network</groupId>-->
-            <!--<artifactId>sso</artifactId>-->
-            <!--<version>1.0</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>sso</artifactId>
+            <version>1.0</version>
+        </dependency>
         <dependency>
             <groupId>com.network</groupId>
             <artifactId>webui</artifactId>
@@ -100,6 +100,17 @@
             <artifactId>discover</artifactId>
             <version>1.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-discover-plugin-five-1.8.6-SNAPSHOT</artifactId>
+            <version>1.8.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.network</groupId>
+            <artifactId>totems-topology-discover-plugin-h3c-1.8.6-SNAPSHOT</artifactId>
+            <version>1.8.6</version>
+        </dependency>
+
         <!--<dependency>-->
             <!--<groupId>com.network</groupId>-->
             <!--<artifactId>disposal</artifactId>-->
